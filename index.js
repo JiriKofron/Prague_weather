@@ -35,8 +35,8 @@ const app = new Vue({
 
   methods: {
     weatherCondition: function () {
-      console.log(this.condition);
-      this.condition === 'Mist' ? console.log('mlha') : console.log('ostatni');
+      // console.log(this.condition);
+      // this.condition === 'Mist' ? console.log('mlha') : console.log('ostatni');
       return {
         day: this.condition === 'Day',
         mist: this.condition === 'Mist',
