@@ -38,9 +38,14 @@ const app = new Vue({
       // console.log(this.condition);
       // this.condition === 'Mist' ? console.log('mlha') : console.log('ostatni');
       return {
-        day: this.condition === 'Day',
+        day: this.condition === 'Clear',
         mist: this.condition === 'Mist',
         rain: this.condition === 'Rain',
+        rain: this.condition === 'Clouds',
+        fog: this.condition === 'Fog',
+        dusk: this.condition === 'Dusk',
+        dawn: this.condition === 'Dawn',
+        night: this.condition === 'Snow',
       };
     },
   },
